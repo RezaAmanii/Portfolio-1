@@ -51,16 +51,18 @@ h5{
 
 .heading{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 p{
     font-size: 17px;
     line-height: 140%;
+    color: var(--color-dark-variant);
 }
 
 .heading-p{
     padding-top: 9rem;
+    text-align: center;
 }
 
 a{
@@ -117,8 +119,14 @@ img{
 .linkedIn-icon, .github-icon{
     width: 32px;
     height: max-content;
-
 }
+
+.icon1{
+    width: 32px;
+    height: max-content;
+}
+
+
 
 
 .container{
@@ -171,7 +179,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 820px;
-    gap: 50px;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -185,25 +193,102 @@ header{
 }
 
 .header-right h2{
-    margin-top: .4rem;
+    margin-top: .2rem;
 }
 
 .header-right .header-action-aria{
-    margin-top: 1rem;
+    margin-top: .7rem;
     margin-left: 2rem;
     display: flex;
-    gap: 1rem;
+    gap: .7rem;
 }
 
 .header-social{
     display: flex;
-    gap: 1rem;
+    gap: .7rem;
     justify-content: center;
-    margin: 1rem auto;
+    margin: .7rem auto;
 }
 
 
 /* -------------------------- End Header section ------------------------------*/
 
+
 /* -------------------------- Start About section ------------------------------*/
-/* -------------------------- End About section ------------------------------*/
+.about-container{
+    display: grid;
+    grid-template-columns: 38% auto;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-left{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.basic-edu{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.edu-box{
+    padding:24px;
+    text-align: center;
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+    width: 100%;
+}
+
+.edu-box img{
+    margin: auto;
+}
+
+
+/* -------------------------- End About section --------------------------------*/
+
+/* -------------------------- Start Experience section --------------------------------*/
+section{
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    right: 5%;
+    transition: var(--transition);
+}
+
+.arrow:hover{
+    margin-top: .5rem;
+}
+.experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.experience-box{
+    border: 1px solid var(--color-dark-variant);
+    border-radius: 30px;
+    padding: 24px;
+}
+
+.experience-box h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.ex-div{
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+/* -------------------------- End Experience section --------------------------------*/
