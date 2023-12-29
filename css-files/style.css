@@ -145,6 +145,7 @@ nav{
     width: 100%;
     display: grid;
     place-items: center;
+    background: var(--color-white);
 }
 
 .nav-container{
@@ -332,3 +333,20 @@ section{
 }
 
 /* -------------------------- End Contact section ---------------------------------*/
+
+/* -------------------------- Start Footer section ---------------------------------*/
+    footer{
+        margin-top:9rem;
+        padding: 30px;
+        text-align: center;
+    }
+
+    footer .nav-links{
+        justify-content:center;
+        margin-bottom: 3rem;
+    }
+/* -------------------------- End Footer section -----------------------------------*/
+
+/* -------------------------- Start Media Scrin ------------------------------------*/
+
+/* -------------------------- End Media Scrin --------------------------------------*/
