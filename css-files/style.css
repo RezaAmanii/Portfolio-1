@@ -74,7 +74,7 @@ a{
 
 a:hover{
     color: var(--color-dark-variant);
-    text-decoration-color: var(--color-dark-variant);
+    text-decoration-color: var(--color-dark-variant) !important;
     text-underline-offset: 1rem;
     text-decoration: underline;
 }
@@ -125,8 +125,6 @@ img{
     width: 32px;
     height: max-content;
 }
-
-
 
 
 .container{
@@ -257,10 +255,11 @@ section{
     position: absolute;
     right: 5%;
     transition: var(--transition);
+    margin-top: 1.4rem;
 }
 
 .arrow:hover{
-    margin-top: .5rem;
+    margin-top: 2rem;
 }
 .experience-container{
     display: grid;
@@ -292,3 +291,7 @@ section{
 }
 
 /* -------------------------- End Experience section --------------------------------*/
+
+/* -------------------------- Start Project section ---------------------------------*/
+
+/* -------------------------- End Project section -----------------------------------*/
