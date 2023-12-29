@@ -347,6 +347,130 @@ section{
     }
 /* -------------------------- End Footer section -----------------------------------*/
 
-/* -------------------------- Start Media Scrin ------------------------------------*/
 
-/* -------------------------- End Media Scrin --------------------------------------*/
+/* -------------------------- Start Media Screen ------------------------------------*/
+@media(max-width: 1024px){
+    .about-container{
+        gap: 30px;
+    }
+
+    .basic-edu{
+        gap: 20px;
+    }
+
+    .experience-container{
+        gap: 30px;
+    }
+
+    .project-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 991px){
+    .logo{
+        display: none;
+    }
+
+    .nav-links{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .experience-container{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media(max-width: 768px){
+    h1{
+        font-size: 38px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    a{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .arrow{
+        right: 5%;
+    }
+
+    .header-container{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .header-left{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+
+    .about-left{
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+    .basic-edu{
+        gap:10px;
+    }
+
+    .experience-box{
+        padding: 10px;
+    }
+
+    .experience{
+        gap: 20px;
+    }
+
+    .ex-div{
+        gap: 10px;
+    }
+
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 600px){
+    a{
+        font-size: 18px;
+    }
+
+    .nav-links{
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer{
+        padding: 0;
+        padding-bottom: 20px;
+        width: 90%;
+        margin: auto;
+        margin-top: 9rem;
+    }
+
+    footer .nav-links{
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+/* -------------------------- End Media Screen --------------------------------------*/
