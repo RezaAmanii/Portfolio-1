@@ -441,11 +441,6 @@ section{
     .project-container{
         grid-template-columns: 1fr;
     }
-
-    .icon1{
-        width: 10px;
-        width: 10px;
-    }
 }
 
 @media(max-width: 600px){
@@ -463,11 +458,6 @@ section{
         gap: 1rem;
     }
 
-    .icon1{
-        width: 10px;
-        width: 10px;
-    }
-
     footer{
         padding: 0;
         padding-bottom: 20px;
@@ -479,6 +469,11 @@ section{
     footer .nav-links{
         width: 100%;
         justify-content: space-between;
+    }
+
+    .icon1{
+        max-width: 32px;
+        height: 32px;
     }
 }
 /* -------------------------- End Media Screen --------------------------------------*/
