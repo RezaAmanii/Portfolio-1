@@ -443,11 +443,6 @@ section{
     .project-container{
         grid-template-columns: 1fr;
     }
-
-    .icon1{
-        width: 10px;
-        max-width: fit-content;
-    }
 }
 
 @media(max-width: 600px){
@@ -465,10 +460,6 @@ section{
         gap: 1rem;
     }
 
-    .icon1{
-        width: 10px;
-        max-width: fit-content;
-    }
 
     footer{
         padding: 0;
