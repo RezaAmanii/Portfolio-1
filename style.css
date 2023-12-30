@@ -120,8 +120,8 @@ img{
 
 
 .icon1{
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
 }
 
 
@@ -441,6 +441,11 @@ section{
     .project-container{
         grid-template-columns: 1fr;
     }
+
+    .icon1{
+        width: 2rem;
+        height: 2rem;
+    }
 }
 
 @media(max-width: 600px){
@@ -472,8 +477,8 @@ section{
     }
 
     .icon1{
-        max-width: 32px;
-        height: 32px;
+        width: 2rem;
+        height: 2rem;
     }
 }
 /* -------------------------- End Media Screen --------------------------------------*/
